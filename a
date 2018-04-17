@@ -1,0 +1,1 @@
+gcc original.c create_textures.c key.c reader.c libft/libft.a -O3 -rpath @loader_path/libSDL/ -I libSDL/SDL2.framework/Headers -I libSDL/SDL2_image.framework/Headers -framework SDL2 -framework SDL2_image -F ./libSDL 
